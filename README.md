@@ -1,6 +1,3 @@
-<p align="center">
- <img src="https://via.placeholder.com/72" alt="Logo" width=383 height=94>
-</p>
 <h3 align="center">Projeto CIN-UFPE - TRE-PE</h3>
 <p align="left">
     Este projeto é uma parceria entre o Centro de Informática e o Tribunal Regional Eleitoral de Pernambuco e visa a conceber e construir um 
