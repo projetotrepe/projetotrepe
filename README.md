@@ -1,5 +1,5 @@
-<h2 align="center">Combate à Desinformação</h2>
-<h3 align="center">Projeto CIN-UFPE - TRE-PE</h3>
+<h1 align="center">Projeto CIN-UFPE - TRE-PE</h1>
+<h3 align="center">Combate à Desinformação</h3>
 <p align="left">
     Este projeto é uma parceria entre o Centro de Informática e o Tribunal Regional Eleitoral de Pernambuco e visa a conceber e construir um 
     sistema para auxiliar o tribubal a combater a desinformação nas redes sociais. Depoimentos contendo potenciais <i>fake news</i> a respeito 
