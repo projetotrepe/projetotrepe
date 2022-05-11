@@ -1,3 +1,4 @@
+<h2 align="center">Combate à Desinformação</h2>
 <h3 align="center">Projeto CIN-UFPE - TRE-PE</h3>
 <p align="left">
     Este projeto é uma parceria entre o Centro de Informática e o Tribunal Regional Eleitoral de Pernambuco e visa a conceber e construir um 
@@ -31,6 +32,9 @@ uma planilha com exemplos de tweets contendo <i>fake news</i> foram fornecidos p
 <p>
   O usuário poderá, então, visualizar, filtrar e ordenar os tweets coletados em cada fluxo, alterar sua classificação e responder a um ou mais deles, utilizando uma 
   conta Twitter previamente cadastrada. Respostas-padrão poderão ser cadastradas para serem sugeridas a tweets negativos de determinado fluxo.
+</p>
+<p>
+  Os tweets reclassificados pelos usuários serão utilizados para retreinar o classificador, de modo que a acurácia melhore com o tempo.
 </p>
 
 ## Equipe
