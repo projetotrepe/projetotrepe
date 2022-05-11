@@ -39,12 +39,12 @@ Grupo do google: projeto-cin-ufpe-tre-pe-l@cin.ufpe.br
 ## Documentos
 
 Os seguintes documento colaborativos estão versionados no google drive do projeto (projetotrepe@cin.ufpe.br):
-- <a href="#" target="_new">Documento de requisitos</a>
-- <a href="#" target="_new">Cronograma</a>
+- <a href="https://docs.google.com/document/d/1toSEPuZElSXHxttON7wjd_zLiKlxcSwp/edit#" target="_new">Documento de requisitos</a>
+- <a href="https://docs.google.com/spreadsheets/d/1zAS5NzxOKYrU-t0ECLQkVdj4rbiYx-9b5SZSyVnDjPU/edit#gid=0" target="_new">Cronograma</a>
 
 ## Terminologia
 
-- Fake news: informação inexata ou imprecisa acidental ou intencionalmente veiculada.
+- Fake news: informação inverídica, inexata ou imprecisa, acidental ou intencionalmente veiculada.
 - Tweet: um texto de até 280 caracteres publicado no Twitter.
 - Fluxo: um conjunto de termos e filtros (query), no formato da busca do Twitter (https://twitter.com/search-advanced), criado pelo usuário para coletar tweets de interesse.
 - Sentimento: atributo do tweet que representa a probabilidade de conter <i>fake news</i>, em três classes:
@@ -54,12 +54,12 @@ Os seguintes documento colaborativos estão versionados no google drive do proje
 
 ## Arquitetura
 
-São previstos os seguintes componentes de software na solução. A definir suas estruturas internas, comportamentos e interfaces de comunicação.
+Estão previstos os seguintes componentes de software na solução. A definir suas estruturas internas, comportamentos e interfaces.
 
 ![image](https://user-images.githubusercontent.com/105316617/167894123-e139f269-26cf-45c0-99c9-c215140b6010.png)
 
 - ___scraper___: acessa os fluxos cadastrados no BD, busca na API do Twitter e salva os tweets e metadados em “BD produção”.
-- ___web app___: permite o cadastro dos fluxos, usuários e modelos de resposta, bem como a visualização dos tweets coletados e classificados, e sua reclassificação. Gera relatórios. Permite responder a um ou mais tweets.
+- ___web app___: permite o cadastro dos fluxos, usuários e modelos de resposta, bem como a visualização dos tweets coletados e classificados. Gera relatórios. Permite responder aos tweets.
 - ___ETL___: extrai, pré-processa e carrega os tweets e metadados do BD Produção para o BD ML. 
 - ___ML___: processamento, treino, retreino e testes dos modelos de ML para classificação do sentimento dos tweets.
 - ___ML Produção___: acessa o BD Produção para classificar os tweets recém coletados e obter os tweets reclassificados pelos usuários para retreino dos modelos.
