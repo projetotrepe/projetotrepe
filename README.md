@@ -1,11 +1,8 @@
-<h1 align="center">Projeto CIN-UFPE - TRE-PE</h1>
-<h3 align="center">Combate à Desinformação</h3>
-<p align="left">
-    Este projeto é uma parceria entre o Centro de Informática e o Tribunal Regional Eleitoral de Pernambuco e visa a conceber e construir um 
-    sistema para auxiliar o tribubal a combater a desinformação nas redes sociais. Depoimentos contendo potenciais <i>fake news</i> a respeito 
-    do processo eleitoral brasileiro serão coletados e classificados por um modelo de aprendizagem de máquina, permitindo ao órgão agir proativamente
-    para esclarecer o cidadão e mitigar o espalhamento da informação imprecisa.
-</p>
+# Projeto CIN-UFPE - TRE-PE
+
+__Combate à Desinformação__
+
+Este projeto é uma parceria entre o Centro de Informática e o Tribunal Regional Eleitoral de Pernambuco e visa a conceber e construir um sistema para auxiliar o tribubal a combater a desinformação nas redes sociais. Depoimentos contendo potenciais <i>fake news</i> a respeito do processo eleitoral brasileiro serão coletados e classificados por um modelo de aprendizagem de máquina, permitindo ao órgão agir proativamente para esclarecer o cidadão e mitigar o espalhamento da informação imprecisa.
 
 ## O projeto
 
@@ -14,6 +11,7 @@
 - [Equipe](#Equipe)
 - [Documentos](#Documentos)
 - [Terminologia](#Terminologia)
+- [Arquitetura](#Arquitetura)
 
 ## Kick-off
 
@@ -24,18 +22,7 @@ uma planilha com exemplos de tweets contendo <i>fake news</i> foram fornecidos p
 
 ## Escopo
 
-<p>
-  Inicialmente, serão coletados dados apenas do Twitter. O usuário autenticado poderá cadastrar fluxos, contendo termos (palavras-chave), perfis de usuário
-  e outros filtros, a fim de coletar tweets de interesse, os quais serão automaticamente classificados quanto ao sentimento: `positivos`, `neutros` ou `negativos` 
-  (com `negativo` significando <i>fake news</i>).
-</p>
-<p>
-  O usuário poderá, então, visualizar, filtrar e ordenar os tweets coletados em cada fluxo, alterar sua classificação e responder a um ou mais deles, utilizando uma 
-  conta Twitter previamente cadastrada. Respostas-padrão poderão ser cadastradas para serem sugeridas a tweets negativos de determinado fluxo.
-</p>
-<p>
-  Os tweets reclassificados pelos usuários serão utilizados para retreinar o classificador, de modo que a acurácia melhore com o tempo.
-</p>
+Inicialmente, serão coletados dados apenas do Twitter. O usuário autenticado poderá cadastrar fluxos, contendo termos (palavras-chave), perfis de usuário e outros filtros, a fim de coletar tweets de interesse, os quais serão automaticamente classificados quanto ao sentimento: `positivos`, `neutros` ou `negativos` (com `negativo` significando <i>fake news</i>). O usuário poderá, então, visualizar, filtrar e ordenar os tweets coletados em cada fluxo, alterar sua classificação e responder a um ou mais deles, utilizando uma conta Twitter previamente cadastrada. Respostas-padrão poderão ser cadastradas para serem sugeridas a tweets negativos de determinado fluxo. Os tweets reclassificados pelos usuários serão utilizados para retreinar o classificador, de modo que a acurácia melhore com o tempo.
 
 ## Equipe
 
@@ -64,3 +51,15 @@ Os seguintes documento colaborativos estão versionados no google drive do proje
    `positivo`: baixa probabilidade;
    `neutro`: média probabilidade;
    `negativo`: alta probabilidade.
+
+## Arquitetura
+
+São previstos os seguintes componentes de software na solução. A definir suas estruturas internas, comportamentos e interfaces de comunicação.
+
+![image](https://user-images.githubusercontent.com/105316617/167894123-e139f269-26cf-45c0-99c9-c215140b6010.png)
+
+- ___scraper___: acessa os fluxos cadastrados no BD, busca na API do Twitter e salva os tweets e metadados em “BD produção”.
+- ___web app___: permite o cadastro dos fluxos, usuários e modelos de resposta, bem como a visualização dos tweets coletados e classificados, e sua reclassificação. Gera relatórios. Permite responder a um ou mais tweets.
+- ___ETL___: extrai, pré-processa e carrega os tweets e metadados do BD Produção para o BD ML. 
+- ___ML___: processamento, treino, retreino e testes dos modelos de ML para classificação do sentimento dos tweets.
+- ___ML Produção___: acessa o BD Produção para classificar os tweets recém coletados e obter os tweets reclassificados pelos usuários para retreino dos modelos.
