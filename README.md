@@ -47,6 +47,8 @@ uma planilha com exemplos de tweets contendo <i>fake news</i> foram fornecidos p
 - Francisco Mauro Falcao Matias Filho (fmfmf@cin.ufpe.br)
 - Marcia Andrade Porto (map@cin.ufpe.br)
 
+Grupo do google: projeto-cin-ufpe-tre-pe-l@cin.ufpe.br
+
 ## Documentos
 
 Os seguintes documento colaborativos estão versionados no google drive do projeto (projetotrepe@cin.ufpe.br):
