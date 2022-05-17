@@ -33,6 +33,8 @@ Inicialmente, serão coletados dados apenas do Twitter. O usuário autenticado p
 - Rafael Borba Costa dos Santos (rbcs@cin.ufpe.br)
 - Francisco Mauro Falcao Matias Filho (fmfmf@cin.ufpe.br)
 - Marcia Andrade Porto (map@cin.ufpe.br)
+- Herikles V. F. Cordeiro (hvfc@cin.ufpe.br)
+- Tales Tomaz Alves (tta@cin.ufpe.br)
 
 Grupo do google: projeto-cin-ufpe-tre-pe-l@cin.ufpe.br
 
