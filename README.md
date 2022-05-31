@@ -12,6 +12,7 @@ Este projeto é uma parceria entre o Centro de Informática e o Tribunal Regiona
 - [Documentos](#Documentos)
 - [Terminologia](#Terminologia)
 - [Arquitetura](#Arquitetura)
+- [Amostra](#Amostra)
 
 ## Kick-off
 
@@ -66,3 +67,9 @@ Estão previstos os seguintes componentes de software na solução. A definir su
 - ___ETL___: extrai, pré-processa e carrega os tweets e metadados do BD Produção para o BD ML. 
 - ___ML___: processamento, treino, retreino e testes dos modelos de ML para classificação do sentimento dos tweets.
 - ___ML Produção___: acessa o BD Produção para classificar os tweets recém coletados e obter os tweets reclassificados pelos usuários para retreino dos modelos.
+
+## Amostra
+
+Tweets coletados de 20 a 31/05/2022 para os 19 fluxos identificados nos <a href="https://docs.google.com/document/d/1toSEPuZElSXHxttON7wjd_zLiKlxcSwp/edit#" target="_blank">requisitos</a>:
+- <a hre="https://drive.google.com/file/d/1TycGM7c3WVQBwBBtlJydmkgIPG7e0z-h/view?usp=sharing" target="_blank">tweets-20052022-a-31052022.zip</a> (arquivos em formato json. 9,82 MB)
+
