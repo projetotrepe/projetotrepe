@@ -71,5 +71,5 @@ Estão previstos os seguintes componentes de software na solução. A definir su
 ## Amostra
 
 Tweets coletados de 20 a 31/05/2022 para os 19 fluxos identificados nos <a href="https://docs.google.com/document/d/1toSEPuZElSXHxttON7wjd_zLiKlxcSwp/edit#" target="_blank">requisitos</a>:
-- <a hre="https://drive.google.com/file/d/1TycGM7c3WVQBwBBtlJydmkgIPG7e0z-h/view?usp=sharing" target="_blank">tweets-20052022-a-31052022.zip</a> (arquivos em formato json. 9,82 MB)
+- <a href="https://drive.google.com/file/d/1TycGM7c3WVQBwBBtlJydmkgIPG7e0z-h/view?usp=sharing" target="_blank">tweets-20052022-a-31052022.zip</a> (arquivos em formato json. 9,82 MB)
 
