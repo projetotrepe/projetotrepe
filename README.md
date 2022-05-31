@@ -17,8 +17,8 @@ Este projeto é uma parceria entre o Centro de Informática e o Tribunal Regiona
 
 O projeto iniciou em maio de 2022, com previsão para durar até novembro do mesmo ano. O documento gênese do projeto (plano de trabalho), bem como
 uma planilha com exemplos de tweets contendo <i>fake news</i> foram fornecidos pelo TRE:
-- <a href="https://docs.google.com/document/d/1FFtdv7i1mJ_0aSddEmxohi7XMRdWHkMO/view" target="_new">Plano de Trabalho</a>
-- <a href="https://drive.google.com/file/d/1iw_X-tjyWAL4KPh39DY8EOV8-HQ0viPG/view" target="_new">Planilha com exemplos de tweets com <i>fake news</i></a>
+- <a href="https://docs.google.com/document/d/1FFtdv7i1mJ_0aSddEmxohi7XMRdWHkMO/view" target="_blank">Plano de Trabalho</a>
+- <a href="https://drive.google.com/file/d/1iw_X-tjyWAL4KPh39DY8EOV8-HQ0viPG/view" target="_blank">Planilha com exemplos de tweets com <i>fake news</i></a>
 
 ## Escopo
 
@@ -41,14 +41,15 @@ Grupo do google: projeto-cin-ufpe-tre-pe-l@cin.ufpe.br
 ## Documentos
 
 Os seguintes documento colaborativos estão versionados no google drive do projeto (projetotrepe@cin.ufpe.br):
-- <a href="https://docs.google.com/document/d/1toSEPuZElSXHxttON7wjd_zLiKlxcSwp/edit#" target="_new">Documento de requisitos</a>
-- <a href="https://docs.google.com/spreadsheets/d/1zAS5NzxOKYrU-t0ECLQkVdj4rbiYx-9b5SZSyVnDjPU/edit#gid=0" target="_new">Cronograma</a>
+- <a href="https://docs.google.com/document/d/1toSEPuZElSXHxttON7wjd_zLiKlxcSwp/edit#" target="_blank">Documento de requisitos</a>
+- <a href="https://docs.google.com/spreadsheets/d/1zAS5NzxOKYrU-t0ECLQkVdj4rbiYx-9b5SZSyVnDjPU/edit#gid=0" target="_blank">Cronograma</a>
+- <a href="https://docs.google.com/presentation/d/1xAJx3UGdRkWQ0CfsShtBRk2zLB4aX2CA" target="_blank">Protótipo de telas</a>
 
 ## Terminologia
 
 - Fake news: informação inverídica, inexata ou imprecisa, acidental ou intencionalmente veiculada.
 - Tweet: um texto de até 280 caracteres publicado no Twitter.
-- Fluxo: um conjunto de termos e filtros (query), no formato da busca do Twitter (https://twitter.com/search-advanced), criado pelo usuário para coletar tweets de interesse.
+- Fluxo: um conjunto de termos e filtros (query), no <a hre="https://twitter.com/search-advanced" target="_blank">formato da busca do Twitter</a>, criado pelo usuário para coletar tweets de interesse.
 - Sentimento: atributo do tweet que representa a probabilidade de conter <i>fake news</i>, em três classes:
    `positivo`: baixa probabilidade;
    `neutro`: média probabilidade;
