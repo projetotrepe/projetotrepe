@@ -59,7 +59,9 @@ Os seguintes documento colaborativos estão versionados no google drive do proje
 
 ## Arquitetura/Entregas
 
--<a href="https://docs.google.com/presentation/d/1xAJx3UGdRkWQ0CfsShtBRk2zLB4aX2CA" target="_blank">Apresentação contendo a arquitetura da solução, macroentregas do projeto e resumo do cronograma (08/2022)</a>
+![image](https://user-images.githubusercontent.com/105316617/184634973-001f9ef6-0a22-43a5-bfd5-15fa23ff2f50.png)
+
+- <a href="https://docs.google.com/presentation/d/1xAJx3UGdRkWQ0CfsShtBRk2zLB4aX2CA" target="_blank">Arquitetura, macroentregas e resumo do cronograma (apresentação de 09/08/2022)</a>
 
 ## Amostra
 
