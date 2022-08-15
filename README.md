@@ -2,7 +2,7 @@
 
 __Combate à Desinformação__
 
-Este projeto é uma parceria entre o Centro de Informática e o Tribunal Regional Eleitoral de Pernambuco e visa a conceber e construir um sistema para auxiliar o tribubal a combater a desinformação nas redes sociais. Depoimentos contendo potenciais <i>fake news</i> a respeito do processo eleitoral brasileiro serão coletados e classificados por um modelo de aprendizagem de máquina, permitindo ao órgão agir proativamente para esclarecer o cidadão e mitigar o espalhamento da informação imprecisa.
+Este projeto é uma parceria entre o Centro de Informática e o Tribunal Regional Eleitoral de Pernambuco e visa a conceber e construir um sistema para auxiliar o tribubal a combater a desinformação nas redes sociais (Twitter). Depoimentos contendo potenciais <i>fake news</i> a respeito do processo eleitoral brasileiro serão coletados e classificados por um modelo de aprendizagem de máquina, permitindo ao órgão agir proativamente para esclarecer o cidadão e mitigar o espalhamento da informação imprecisa.
 
 ## O projeto
 
@@ -16,7 +16,7 @@ Este projeto é uma parceria entre o Centro de Informática e o Tribunal Regiona
 
 ## Kick-off
 
-O projeto iniciou em maio de 2022, com previsão para durar até novembro do mesmo ano. O documento gênese do projeto (plano de trabalho), bem como
+O projeto iniciou em maio de 2022, com previsão para durar até janeiro de 2023. O documento gênese do projeto (plano de trabalho), bem como
 uma planilha com exemplos de tweets contendo <i>fake news</i> foram fornecidos pelo TRE:
 - <a href="https://docs.google.com/document/d/1FFtdv7i1mJ_0aSddEmxohi7XMRdWHkMO/view" target="_blank">Plano de Trabalho</a>
 - <a href="https://drive.google.com/file/d/1iw_X-tjyWAL4KPh39DY8EOV8-HQ0viPG/view" target="_blank">Planilha com exemplos de tweets com <i>fake news</i></a>
@@ -45,7 +45,7 @@ Os seguintes documento colaborativos estão versionados no google drive do proje
 - <a href="https://docs.google.com/document/d/1toSEPuZElSXHxttON7wjd_zLiKlxcSwp/edit#" target="_blank">Documento de requisitos</a>
 - <a href="https://docs.google.com/spreadsheets/d/1zAS5NzxOKYrU-t0ECLQkVdj4rbiYx-9b5SZSyVnDjPU/edit#gid=0" target="_blank">Cronograma</a>
 - <a href="https://docs.google.com/presentation/d/1xAJx3UGdRkWQ0CfsShtBRk2zLB4aX2CA" target="_blank">Protótipo de telas</a>
-- <a href="https://docs.google.com/document/d/e/2PACX-1vRdqi3xK9wCXNIbVNkThZJmLIwYPmkj3lGXuXO_UHJfVQ4srKLz81uNncDR6f72r52mz3mF6_94hCdc/pub" target="_blank">Documentação da API</a>
+- <a href="https://docs.google.com/document/d/e/2PACX-1vRdqi3xK9wCXNIbVNkThZJmLIwYPmkj3lGXuXO_UHJfVQ4srKLz81uNncDR6f72r52mz3mF6_94hCdc/pub" target="_blank">API (backend)</a>
 
 ## Terminologia
 
@@ -63,14 +63,8 @@ Estão previstos os seguintes componentes de software na solução. A definir su
 
 ![image](https://user-images.githubusercontent.com/105316617/167894123-e139f269-26cf-45c0-99c9-c215140b6010.png)
 
-- ___scraper___: acessa os fluxos cadastrados no BD, busca na API do Twitter e salva os tweets e metadados em “BD produção”.
-- ___web app___: permite o cadastro dos fluxos, usuários e modelos de resposta, bem como a visualização dos tweets coletados e classificados. Gera relatórios. Permite responder aos tweets.
-- ___ETL___: extrai, pré-processa e carrega os tweets e metadados do BD Produção para o BD ML. 
-- ___ML___: processamento, treino, retreino e testes dos modelos de ML para classificação do sentimento dos tweets.
-- ___ML Produção___: acessa o BD Produção para classificar os tweets recém coletados e obter os tweets reclassificados pelos usuários para retreino dos modelos.
-
 ## Amostra
 
-Tweets coletados de 20 a 31/05/2022 para os 19 fluxos identificados nos <a href="https://docs.google.com/document/d/1toSEPuZElSXHxttON7wjd_zLiKlxcSwp/edit#" target="_blank">requisitos</a>:
-- <a href="https://drive.google.com/file/d/1TycGM7c3WVQBwBBtlJydmkgIPG7e0z-h/view?usp=sharing" target="_blank">tweets-20052022-a-31052022.zip</a> (arquivos em formato json. 9,82 MB)
-
+Tweets coletados a partir de 20/05/2022 para os fluxos identificados nos <a href="https://docs.google.com/document/d/1toSEPuZElSXHxttON7wjd_zLiKlxcSwp/edit#" target="_blank">requisitos</a>:
+- <a href="https://scde.cin.ufpe.br/api" target="_blank">[tweets-20052022-a-31052022.zip](https://scde.cin.ufpe.br/api)</a>
+- 
