@@ -45,6 +45,7 @@ Os seguintes documento colaborativos estão versionados no google drive do proje
 - <a href="https://docs.google.com/document/d/1toSEPuZElSXHxttON7wjd_zLiKlxcSwp/edit#" target="_blank">Documento de requisitos</a>
 - <a href="https://docs.google.com/spreadsheets/d/1zAS5NzxOKYrU-t0ECLQkVdj4rbiYx-9b5SZSyVnDjPU/edit#gid=0" target="_blank">Cronograma</a>
 - <a href="https://docs.google.com/presentation/d/1xAJx3UGdRkWQ0CfsShtBRk2zLB4aX2CA" target="_blank">Protótipo de telas</a>
+- <a href="https://docs.google.com/document/d/e/2PACX-1vRdqi3xK9wCXNIbVNkThZJmLIwYPmkj3lGXuXO_UHJfVQ4srKLz81uNncDR6f72r52mz3mF6_94hCdc/pub" target="_blank">Documentação da API</a>
 
 ## Terminologia
 
