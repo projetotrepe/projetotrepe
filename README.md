@@ -11,7 +11,7 @@ Este projeto é uma parceria entre o Centro de Informática e o Tribunal Regiona
 - [Equipe](#Equipe)
 - [Documentos](#Documentos)
 - [Terminologia](#Terminologia)
-- [Arquitetura](#Arquitetura)
+- [Arquitetura/Entregas](#Arquitetura/Entregas)
 - [Amostra](#Amostra)
 
 ## Kick-off
@@ -45,7 +45,7 @@ Os seguintes documento colaborativos estão versionados no google drive do proje
 - <a href="https://docs.google.com/document/d/1toSEPuZElSXHxttON7wjd_zLiKlxcSwp/edit#" target="_blank">Documento de requisitos</a>
 - <a href="https://docs.google.com/spreadsheets/d/1zAS5NzxOKYrU-t0ECLQkVdj4rbiYx-9b5SZSyVnDjPU/edit#gid=0" target="_blank">Cronograma</a>
 - <a href="https://docs.google.com/presentation/d/1xAJx3UGdRkWQ0CfsShtBRk2zLB4aX2CA" target="_blank">Protótipo de telas</a>
-- <a href="https://docs.google.com/document/d/e/2PACX-1vRdqi3xK9wCXNIbVNkThZJmLIwYPmkj3lGXuXO_UHJfVQ4srKLz81uNncDR6f72r52mz3mF6_94hCdc/pub" target="_blank">API (backend)</a>
+- <a href="https://docs.google.com/document/d/e/2PACX-1vRdqi3xK9wCXNIbVNkThZJmLIwYPmkj3lGXuXO_UHJfVQ4srKLz81uNncDR6f72r52mz3mF6_94hCdc/pub" target="_blank">API (backend) do SCDE</a>
 
 ## Terminologia
 
@@ -57,14 +57,11 @@ Os seguintes documento colaborativos estão versionados no google drive do proje
    `neutro`: média probabilidade;
    `negativo`: alta probabilidade.
 
-## Arquitetura
+## Arquitetura/Entregas
 
-Estão previstos os seguintes componentes de software na solução. A definir suas estruturas internas, comportamentos e interfaces.
-
-![image](https://user-images.githubusercontent.com/105316617/167894123-e139f269-26cf-45c0-99c9-c215140b6010.png)
+-<a href="https://docs.google.com/presentation/d/1xAJx3UGdRkWQ0CfsShtBRk2zLB4aX2CA" target="_blank">Apresentação contendo a arquitetura da solução, macroentregas do projeto e resumo do cronograma (08/2022)</a>
 
 ## Amostra
 
 Tweets coletados a partir de 20/05/2022 para os fluxos identificados nos <a href="https://docs.google.com/document/d/1toSEPuZElSXHxttON7wjd_zLiKlxcSwp/edit#" target="_blank">requisitos</a>:
-- <a href="https://scde.cin.ufpe.br/api" target="_blank">[tweets-20052022-a-31052022.zip](https://scde.cin.ufpe.br/api)</a>
-- 
+- <a href="https://scde.cin.ufpe.br/api" target="_blank">https://scde.cin.ufpe.br/api</a>
